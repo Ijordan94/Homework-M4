@@ -1,0 +1,95 @@
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aquamarine;
+    background-color: rgb(196, 56, 56);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    border: solid 4px rgb(89, 184, 70);
+   }
+
+
+   .parrafo{
+
+    font-size: 1.3em;
+    color: aquamarine;
+    background-color: rgb(196, 56, 56);
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 3px rgb(89, 184, 70);
+    margin: 3em;
+    justify-content: center;  
+    border-radius: 10%;
+  
+    
+        
+        }
+
+  #imagenes{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: auto;
+    justify-content: space-around; 
+    align-items: center;
+    
+  }
+
+  .java{
+    border: dotted 4px rgb(89, 184, 70);
+    
+  }
+
+  .python{
+    border: dotted 4px rgb(89, 184, 70);
+
+  }
+
+  .imac{
+    border: dotted 4px rgb(89, 184, 70);
+
+  }
+
+  .futer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+    
+}
+
+.hs{
+
+  background-color: rgb(196, 56, 56);
+    color: aquamarine;
+    display: inline-flex;
+    padding: 0.5em 1em; 
+    margin: 2em;
+    border: 2px dashed aquamarine;
+    font-size: 2em;
+    margin-right: 3em;
+
+}
+
+.ha{
+
+  background-color: rgb(196, 56, 56);
+    color: aquamarine;
+    display: inline-flex;
+    padding: 0.5em 1em; 
+    margin: 2em;
+    border: 2px dashed aquamarine;
+    font-size: 2em;
+    margin-left: 9em;
+
+}
+
+html{
+  background-image: url(henry.jpg);
+  background-size: auto;
+}
+
+
+
+

@@ -1,0 +1,71 @@
+/* Reset CSS */
+
+/* Establecer el box-sizing en border-box para todos los elementos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer los estilos de los elementos que pueden contener texto */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer los estilos de los elementos que pueden ser listas */
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Establecer los estilos de los elementos de formulario */
+input,
+button,
+textarea,
+select {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+}
+
+/* Establecer los estilos de las imágenes */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Establecer los estilos de los hipervínculos */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Establecer los estilos de los elementos que pueden ser tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Establecer los estilos de los elementos que pueden ser botones */
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font: inherit;
+}
+
+
